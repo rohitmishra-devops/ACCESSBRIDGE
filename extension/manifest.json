@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "ACCESSBRIDGE Assistant",
+  "version": "0.1.0",
+  "description": "Understand web pages with simple Hindi or English explanations and voice output.",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "tts"
+  ],
+  "host_permissions": [
+    "http://127.0.0.1:8000/*",
+    "http://localhost:8000/*"
+  ],
+  "action": {
+    "default_title": "ACCESSBRIDGE Assistant",
+    "default_popup": "popup.html"
+  }
+}
